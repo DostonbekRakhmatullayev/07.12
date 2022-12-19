@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: 'SF PRO DISPLAY';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('./Assets/fonts/SFPRODISPLAYBOLD.woff2') format('woff2'),
+    url('./Assets/fonts/SFPRODISPLAYBOLD.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF PRO DISPLAY';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('./Assets/fonts/SFPRODISPLAYREGULAR.woff2') format('woff2'),
+    url('./Assets/fonts/SFPRODISPLAYREGULAR.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF PRO DISPLAY';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('./Assets/fonts/SFPRODISPLAYMEDIUM.woff2') format('woff2'),
+    url('./Assets/fonts/SFPRODISPLAYMEDIUM.woff') format('woff');
+}
+
+// GLOBAL STYLES
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'SF PRO DISPLAY';
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1310px;
+    max-width: 100%;
+    padding: 0 15px;
+}
